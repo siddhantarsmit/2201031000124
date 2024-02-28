@@ -1,0 +1,79 @@
+*
+{
+    font-family: "Playfair Display",serif;
+}
+body
+{
+    background-color: #1d1d1d;
+    font-family: "Plaifare Display",serif;
+    color: white;
+    overflow-x: hidden;
+}
+.logo
+{
+    margin-top: 7px;
+}
+.nav
+{
+    font-family: "Plaifare Display",serif;
+    display: flex;
+    color: white;
+    margin-left: 55%;
+    margin-top: -2%;
+    font-size: 25px;
+}
+a{
+    color: #C7C5C5;
+}
+a:link
+{   
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: white;
+}
+a:active
+{
+    color: white;
+}
+.cart
+{   
+    display: flex;
+    margin-top: -2%;
+    margin-left: 150px;
+    float: right;
+}
+.back_btn
+{
+    margin-left: -1450px;
+    margin-top: -10px;
+}
+.details
+{
+    margin-top: -900px;
+    margin-left: 670px;
+}
+p{
+    margin-left: 680px;
+    margin-top: 180px;
+    font-size: 30px;
+}
+h2{
+    margin-left: 680px;
+    
+}
+h3{
+    margin-left: 900px;
+    margin-top: -48px;
+    font-weight: 100;
+}
+.link
+{
+    font-weight: 600;
+    margin-right: 567px;
+    margin-top: 80px;
+    font-size: 30px;
+}
