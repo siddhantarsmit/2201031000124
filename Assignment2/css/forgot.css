@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair display",serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../i/bg(whistlewood).jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width: 600px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 50px 50px; 
+    box-shadow: 2px 2px 15px rgb(104, 103, 103);
+}
+
+.fonts
+{
+  transform: scale(1.5);
+  font-family: "Playfair display",serif;
+  font-weight: 100;
+  margin-left: 30%;
+  
+}
+
+.wrapper .input-box
+{     
+    position: relative;     
+    width: 100%;     
+    height: 50px;          
+    margin: 30px 0;   
+}
+
+.input-box input
+{     
+    width: 100%;     
+    height: 100%;     
+    background: transparent;     
+    border: none;     
+    outline: none;     
+    border: 2px solid rgba(255, 255, 255, .2);     
+    border-radius: 40px;     
+    font-size: 16px;     
+    color: #fff;     
+    padding: 20px 45px 20px 20px;   
+}
+
+.input-box input::placeholder
+{     
+    color: white;
+    font-family: "Playfair Display",serif ;   
+}
+
+.wrapper .input-box
+{     
+    position: relative;     
+    width: 100%;     
+    height: 50px;          
+    margin: 30px 0;   
+}
+
+button
+{
+    font-family: "Playfair Display",serif ;
+    margin-top: 7%;
+    margin-left: 40%;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.logo
+{
+    margin-top: -45%;
+    margin-left: -45%;
+    margin-right: 10%;
+}
+
+input[type="checkbox"]
+{
+    transform: scale(1.3);
+}
+
+a
+{
+    font-family: "Playfair Display",serif;
+    text-decoration: none;
+    color: white;
+}
+
+.forgot
+{   
+    margin-right: -64%;
+    padding-left: 25%;
+    padding-top: 6%;
+    margin : -15px 0px 15px;
+}
+
+.wrapper .remember-forgot
+{
+    display: flex;
+    margin: -15px 0px 15px;
+}
+
+.signup p a
+{
+    font-weight: 600;
+}
+
+.img
+{
+    transform: scale(0.04);
+    margin-top: -222%;
+    margin-left: -280%;
+    padding-right: 30%;
+    color: white;
+    cursor: pointer;
+}
+
+.signup p a
+{
+    font-weight: 600;
+}
+
+.btn
+{
+    margin-top: 2%;
+}

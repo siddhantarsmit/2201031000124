@@ -1,0 +1,120 @@
+*
+{
+    font-family: "Plaifare Display",serif;
+}
+
+body
+{
+    background-color: #1d1d1d;
+    font-family: "Plaifare Display",serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+.select
+{
+    color: white;
+}
+
+.logo
+{
+    margin-top: 7px;
+}
+.nav
+{
+    font-family: "Plaifare Display",serif;
+    display: flex;
+    color: white;
+    margin-left: 55%;
+    margin-top: -2%;
+    font-size: 25px;
+}
+a{
+    color: #C7C5C5;
+}
+a:link
+{   
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: white;
+}
+a:active
+{
+    color: white;
+}
+.cart
+{   
+    display: flex;
+    margin-top: -2%;
+    margin-left: 150px;
+    float: right;
+}
+
+p{
+    margin-left: 80px;
+}
+
+.msg_box_info
+{
+    margin-left: 80px;
+    width: 800px;
+    height: 400px;
+    background-color: #C1DCDC;
+    border-radius: 10px;
+}
+
+label{
+    background-color: white ;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+.msg_form
+{
+    margin-left: 450px;
+    margin-top: -380px;
+    color : black
+}
+
+input[type="text"] , input[type="email"]
+{
+    height: 25px;
+    border : none;
+    background-color: transparent;
+}
+
+input[type="text"]:focus , input[type="email"]:focus , textarea:focus
+{
+    outline: none;
+}
+
+.Social_tab
+{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    background-color: #C1DCDC;
+}
+
+.button
+{
+    margin-left: 15%;
+    padding: 5px 10px 5px 10px; 
+    border-radius: 5px; 
+    border: none; 
+    background-color: white; 
+    cursor: pointer;
+}
+.button:hover
+{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}

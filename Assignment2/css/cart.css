@@ -1,0 +1,83 @@
+body
+{
+    background-color: #1d1d1d;
+    font-family: "Playfair Display",serif;
+    color: white;
+    overflow-x: hidden;
+}
+.logo
+{
+    margin-top: 7px;
+}
+.nav
+{
+    font-family: "Playfair Display",serif;
+    display: flex;
+    color: white;
+    margin-left: 55%;
+    margin-top: -2%;
+    font-size: 25px;
+}
+a{
+    color: #C7C5C5;
+}
+a:link
+{   
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: white;
+}
+a:active
+{
+    color: white;
+}
+.cart
+{   
+    display: flex;
+    margin-top: -2%;
+    margin-left: 150px;
+    float: right;
+}
+.img a
+{
+    margin-top: 30px    ;
+    margin-left: 30px;
+}
+.img1
+{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.img2
+{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -220px;
+}
+.product
+{
+    margin-top: 60px;
+    display : flex;
+    justify-content : space-around; 
+    margin-top: 10%;
+    margin-right : 5%;
+}
+.img4:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-out;
+}
+.img:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-out;
+}
+.img5
+{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -964px;
+}
