@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(../../i/bg\(whistlewood\).jpg) no-repeat;
+    background: url(../i/bg\(whistlewood\).jpg) no-repeat;
     /* background: url(../../img/whistlewood.jpg) no-repeat; */
     background-size: cover;
     background-position: center;
